@@ -69,7 +69,23 @@ body {
 .hr::before {
   content: "";
   position: absolute;
-  width: 5px;
+  width: 7px;
   height: 100px;
   background: #fff;
+}
+
+.mn::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 110px;
+  background: #fff;
+}
+
+.sc::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background: #2196f3;
 }
