@@ -51,6 +51,11 @@
             let s = new Date().getSeconds();
             let am = "AM";
 
+            //add zero before single digit NMumbers
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : s;
+            s = (s < 10) ? "0" + s : s;
+            
             hour.innerHTML = h+":";
             minutes.innerHTML = m+":";
             seconds.innerHTML = s;
